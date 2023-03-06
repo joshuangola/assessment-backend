@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Back End Assessment</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body class="container">
+  <button id="complimentButton">Get a compliment</button>
+  <button id="fortuneButton">Felling Lucky</button>
+
+  <form id="addCharacterForm">
+    <div>
+      <label for="nameInput">Name:</label>
+      <input type="text" id="nameInput" name="name">
+    </div>
+    <div>
+      <label for="heightInput">Height:</label>
+      <input type="text" id="heightInput" name="height">
+    </div>
+    <div>
+      <label for="hairColorInput">Hair Color:</label>
+      <input type="text" id="hairColorInput" name="hairColor">
+    </div>
+    <div>
+      <label for="ageInput">Age:</label>
+      <input type="text" id="ageInput" name="age">
+    </div>
+    <div>
+      <label for="powerInput">Power:</label>
+      <input type="text" id="powerInput" name="power">
+    </div>
+    <div>
+      <label for="imageURLInput">Image URL:</label>
+      <input type="text" id="imageURLInput" name="imageURL">
+    </div>
+    <button type="submit">Add Character</button>
+  </form>
+  
+  <section id="characterContainer"></section>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
